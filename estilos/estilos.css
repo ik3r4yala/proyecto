@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    border: solid 5px plum;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+    
+
+header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    height: 50px;
+
+}
+
+h1 {
+    color: coral;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: red ;
+
+}
+
+.contenedor-imagenes {
+    display: flex;
+    background-color: gray;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
